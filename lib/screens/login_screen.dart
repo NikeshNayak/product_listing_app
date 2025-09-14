@@ -128,7 +128,6 @@ class LoginScreenState extends ConsumerState<LoginScreen> {
                       SizedBox(width: 5),
                       GestureDetector(
                         onTap: () {
-                          print("Clicked on Forgot Password !");
                           Navigator.of(context).pushNamed('/register');
                         },
                         child: Text(
